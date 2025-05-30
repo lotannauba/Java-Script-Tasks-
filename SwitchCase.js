@@ -15,7 +15,7 @@ case 4: console.log("Weather applications")
 case 5: console.log("Games") 
 	break;
 case 6: console.log("Back option")    
-	break;
+	break; 
 
 
 
