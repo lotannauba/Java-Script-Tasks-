@@ -17,11 +17,11 @@ Press any of the following to perform an action:
     switch (userChoice) {
       case '1':
         console.log("Welcome to your calculator\nEnter your start date in this order (year, month, day): ");
-        const year = parseInt(await askQuestion('Year: '), 10);
-        const month = parseInt(await askQuestion('Month: '), 10);
-        const day = parseInt(await askQuestion('Day: '), 10);
+        const year = int(await askQuestion('Year: '), 10);
+        const month = int(await askQuestion('Month: '), 10);
+        const day = int(await askQuestion('Day: '), 10);
 
-        const cycle = parseInt(await askQuestion("How many days is your cycle?: "), 10);
+        const cycle = int(await askQuestion("How many days is your cycle?: "), 10);
 
         console.log();
 
